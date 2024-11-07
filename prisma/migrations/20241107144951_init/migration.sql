@@ -1,0 +1,3 @@
+-- AlterTable
+ALTER TABLE `Auth` ADD COLUMN `allowReset1` BOOLEAN NOT NULL DEFAULT false,
+    ADD COLUMN `allowReset2` BOOLEAN NOT NULL DEFAULT false;
